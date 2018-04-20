@@ -1,0 +1,15 @@
+content
+├── about.md
+├── blog
+│   ├── _index.md
+│   └── posts
+└── products
+    ├── product1.md
+    └── my-product
+        ├── code.txt
+        ├── codeexample.md
+        ├── feature-1.md
+        ├── feature-2.md
+        ├── feature-3.md
+        ├── index.md
+        └── pros.md

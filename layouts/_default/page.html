@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{- with .Resources.Match "codeexample.md" }}
+  {{- range . }}
+    {{ .Render "codeexample" }}
+  {{- end }}
+{{- end }}
+{{ end }}
