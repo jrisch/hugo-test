@@ -2,7 +2,4 @@
 <p>
   {{ .Content }}
 </p>
-<pre class="pre-code">
-{{- $file := .Params.codefile }}
-{{ readFile $file }}
-</pre>
+{{ partial "code.html" . }}
